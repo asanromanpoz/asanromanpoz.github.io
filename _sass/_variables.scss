@@ -24,6 +24,10 @@ $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
 
+// Color de acento de la web (enlaces, detalles). Para cambiarlo, edita solo estos dos:
+$wine-color: #9b1c31 !default; // rojo carmesí / castilla (modo claro).  Alternativas: #7d1935 vino · #663399 morado
+$wine-color-light: #d16a7c !default; // versión más clara para el modo oscuro (buen contraste)
+
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark: #1c1c1d;

@@ -10,6 +10,7 @@ layout: default
       {% else %}
         {{ site.title }}
       {% endif %}
+      <span class="pronouns">(él/he/him)</span>
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
@@ -38,7 +39,7 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix about-content">{{ content }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -67,7 +68,7 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-icons">{% social_links %} <a href="https://asanromanpoz.substack.com" title="Substack" target="_blank" rel="noopener"><img src="{{ '/assets/img/substack.png' | relative_url }}" alt="Substack"></a></div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
