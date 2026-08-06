@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD candidate in Social Sciences at the Universidad Carlos III de Madrid (UC3M)
+subtitle: 'PhD candidate in Social Sciences at the <a href="https://researchportal.uc3m.es/display/inv48477" target="_blank" rel="noopener">Universidad Carlos III de Madrid (UC3M)</a>'
 
 profile:
   align: right
@@ -12,10 +12,10 @@ profile:
     <p>Office 18.2.A.36</p>
     <p>Departamento de Ciencias Sociales (UC3M)</p>
     <p>Calle Madrid 135, 28903 Getafe, Madrid, Spain</p>
-    <iframe class="office-map" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.7760%2C40.3285%2C-3.7590%2C40.3360&layer=mapnik&marker=40.3322%2C-3.7674" title="Office location" loading="lazy"></iframe>
+    <div class="office-map-wrap"><iframe class="office-map" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.732012%2C40.314588%2C-3.722812%2C40.321588&layer=mapnik" title="Office location" loading="lazy"></iframe><svg class="office-map-pin" viewBox="0 0 24 36" aria-hidden="true"><path fill="#9b1c31" stroke="#ffffff" stroke-width="1.2" d="M12 1C6.2 1 1.5 5.7 1.5 11.5 1.5 19.5 12 34 12 34S22.5 19.5 22.5 11.5C22.5 5.7 17.8 1 12 1z"/><circle cx="12" cy="11.5" r="4" fill="#ffffff"/></svg></div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # iconos movidos al lado de la foto (en _layouts/about.liquid)
 
 announcements:
   enabled: false # includes a list of news items
@@ -28,9 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Welcome to my website!
+¡Hola! Welcome to my website.
 
-I am a PhD candidate in Social Sciences at the [Universidad Carlos III de Madrid (UC3M)](https://uc3m.es), under the supervision of Professors [Ignacio Jurado](https://ignaciojurado.com/) and [Sandra León](https://sandraleoncom.wordpress.com/). Before my PhD, I completed an MS in Social Sciences and earned a BA in Political Science and a BA in International Studies.
+I am a PhD candidate in Social Sciences at the [Universidad Carlos III de Madrid (UC3M)](https://uc3m.es), under the supervision of Professors [Ignacio Jurado](https://ignaciojurado.com/) and [Sandra León](https://sandraleoncom.wordpress.com/). Before my PhD, I completed an MPhil in Social Sciences and earned a BA in Political Science and a BA in International Studies at UC3M.
 
 My research studies the political economy of public services and the geography of politics. Substantively, I examine how the *type* of output a policy delivers —infrastructure rather than spending— and the way its costs and benefits are distributed in space reshape electoral accountability, from the expansion of public services to the local politics of the green transition. Spatially, I ask how *place* shapes attitudes and grievances, connecting to debates on the urban–rural divide and the geographies of discontent. Methodologically, I employ observational causal inference with large, georeferenced panel data at highly disaggregated levels, and I build original spatial datasets from scratch.
 
@@ -40,7 +40,7 @@ You can download my <a href="/assets/pdf/cv.pdf" target="_blank" rel="noopener">
 
 You can reach me at [asanroma@clio.uc3m.es](mailto:asanroma@clio.uc3m.es).
 
-*Website last updated {{ 'now' | date: '%B %Y' }}.*
+<p class="site-updated">Website last updated {{ 'now' | date: '%B %Y' }}.</p>
 
 <p class="keywords-label">Keywords</p>
 <div class="keywords">
@@ -54,6 +54,7 @@ You can reach me at [asanroma@clio.uc3m.es](mailto:asanroma@clio.uc3m.es).
   <span class="keyword">political behaviour</span>
 </div>
 
+{% comment %}
 <h2 class="contact-heading">Contact</h2>
 
 <form class="contact-form" action="mailto:asanroma@clio.uc3m.es" method="post" enctype="text/plain">
@@ -62,3 +63,4 @@ You can reach me at [asanroma@clio.uc3m.es](mailto:asanroma@clio.uc3m.es).
   <textarea name="message" rows="5" placeholder="Your message" required></textarea>
   <button type="submit">Send</button>
 </form>
+{% endcomment %}

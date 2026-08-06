@@ -36,6 +36,25 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        <div class="profile-socials">
+          <div class="social-row">
+            <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" title="CV" target="_blank" rel="noopener"><i class="ai ai-cv"></i></a>
+            <a href="mailto:asanroma@clio.uc3m.es" title="Institutional email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="mailto:asanromanpoz@gmail.com" title="Personal email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://orcid.org/0009-0009-7562-2414" title="ORCID" target="_blank" rel="noopener"><i class="ai ai-orcid"></i></a>
+          </div>
+          <div class="social-row">
+            <a href="https://scholar.google.com/citations?user=QpSNCO8AAAAJ" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://www.researchgate.net/profile/Alvaro-San-Roman-Del-Pozuelo/" title="ResearchGate" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i></a>
+            <a href="https://github.com/asanromanpoz" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="social-row">
+            <a href="https://www.linkedin.com/in/asanromanpoz" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/asanromanpoz" title="X" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://bsky.app/profile/asanromanpoz.bsky.social" title="Bluesky" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i></a>
+            <a href="https://asanromanpoz.substack.com" title="Substack" target="_blank" rel="noopener"><svg class="substack-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"></path></svg></a>
+          </div>
+        </div>
       </div>
     {% endif %}
 

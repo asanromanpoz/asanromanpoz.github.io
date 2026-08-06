@@ -78,7 +78,7 @@ nav_order: 1
     <span class="paper-title">Constructing door-to-door measures of public-service accessibility</span>
     <details class="paper-abstract">
       <summary>Abstract</summary>
-      <p class="paper-status">[Available on Substack]</p>
+      <p class="paper-status">[Soon to be available]</p>
       <p>
       This methodological paper builds the most granular measure of public-service accessibility to date for Andalusia (Spain). Combining postal addresses, 250-metre population grid cells, and the location of general hospitals, I use the Open Source Routing Machine (OSRM) to compute car travel times and distances from each populated address to its nearest facility. Aggregating these door-to-door estimates yields a population-weighted distribution of objective accessibility, replicable to other services and regions and validated against alternative measures.
       </p>
