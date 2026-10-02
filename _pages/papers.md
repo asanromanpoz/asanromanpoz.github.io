@@ -42,7 +42,7 @@ nav_order: 1
       Respondents are randomly assigned to one of three conditions: informed about a new hospital with no location specified, described as policy winners (the new hospital is closer), or described as policy non-winners (the new hospital is farther away).
   </p>
     </details>
-    <p class="paper-presentations"><span class="pres-label">Presented at:</span> AECPA (Granada, 2026, upcoming); EPSS (Belfast, 2026); ZPESS (Zurich, 2026).</p>
+    <p class="paper-presentations"><span class="pres-label">Presented at:</span> AECPA (Granada, 2026); EPSS (Belfast, 2026); ZPESS (Zurich, 2026).</p>
   </div>
 
   <div class="paper-item">
@@ -56,7 +56,7 @@ nav_order: 1
       Using a novel dataset on wind and solar park construction in Catalonia (2000–2024) and precinct-level electoral results, this paper analyzes the localized impacts of these projects. It examines whether incumbents face electoral losses in affected areas but gain support elsewhere, with differential responses between rural deprived and more economically vibrant areas. By employing causal inference methods, the study stresses the importance of understanding how green projects interact with socio-economic and political contexts, offering critical insights into the electoral dynamics of sustainability transitions.
 </p>
     </details>
-    <p class="paper-presentations"><span class="pres-label">Presented at:</span> AECPA (Granada, 2026, upcoming); CES (Dublin, 2026); EPSA (Madrid, 2025); ECPR (Thessaloniki, 2025).</p>
+    <p class="paper-presentations"><span class="pres-label">Presented at:</span> AECPA (Granada, 2026); CES (Dublin, 2026); EPSA (Madrid, 2025); ECPR (Thessaloniki, 2025).</p>
   </div>
 
   <div class="paper-item">
