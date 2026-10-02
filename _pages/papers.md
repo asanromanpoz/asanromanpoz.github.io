@@ -81,6 +81,7 @@ nav_order: 1
       <p class="paper-status">[Soon to be available]</p>
       <p>
       This methodological paper builds the most granular measure of public-service accessibility to date for Andalusia (Spain). Combining postal addresses, 250-metre population grid cells, and the location of general hospitals, I use the Open Source Routing Machine (OSRM) to compute car travel times and distances from each populated address to its nearest facility. Aggregating these door-to-door estimates yields a population-weighted distribution of objective accessibility, replicable to other services and regions and validated against alternative measures.
+      Interactive maps: <a href="{{ '/papers/addresses/process/' | relative_url }}" target="_blank">the procedure, step by step</a> and <a href="{{ '/papers/addresses/crossvalidation/' | relative_url }}" target="_blank">the cross-validation with existing measures</a>.
       </p>
     </details>
   </div>
