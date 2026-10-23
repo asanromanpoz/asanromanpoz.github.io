@@ -80,6 +80,12 @@
   margin-top: 0.1rem;
 }
 
+.paper-item .paper-links {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
 // Desplegable del abstract (cerrado por defecto)
 .paper-abstract {
   margin-top: 0.4rem;
@@ -111,13 +117,13 @@
   text-align: justify;
 }
 
-// Mensaje de estado del paper ([Available on request], etc.), encima del abstract
-.paper-abstract .paper-status {
+// Mensaje de estado del paper ([Available on request], etc.), antes del desplegable "Abstract"
+.paper-item .paper-status {
   font-style: italic;
   color: var(--global-text-color-light);
   font-size: 0.85rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.4rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0;
 }
 
 // CV incrustado en su página
